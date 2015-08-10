@@ -1,0 +1,69 @@
+<jmapper>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.GetAircraftLinkedFlightsResponse">
+        <global/>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Aircraft">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.AircraftForFlightLeg">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.AircraftType">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Airport">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.BusinessError">
+        <global>
+            <excluded>
+                <attribute name="uuid"/>
+            </excluded>
+        </global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.BusinessErrors">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.City">
+        <global></global>
+    </class>
+
+
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Duration">
+        <global></global>
+        <conversion name="conversion" from="unitOfTime" to="unitOfTime" type="STATIC">
+            return com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.UnitOfTimeEnum.HOUR;
+        </conversion>
+    </class>
+
+
+
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.EventDate">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Flight">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.FlightLeg">
+        <global></global>
+
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.FlightNumber">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.FlightTimings">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Movement">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.OperatingFlightNumber">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.Organisation">
+        <global></global>
+    </class>
+    <class name="com.xxx.schema.pega.pegasusadapterv02.getaircraftlinkedflightsresponsev01.SubError">
+        <global></global>
+    </class>
+</jmapper>
