@@ -1,0 +1,1 @@
+Test that recreates embedded $ in generated code issue.
